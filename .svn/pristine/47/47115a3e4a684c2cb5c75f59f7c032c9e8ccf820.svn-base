@@ -1,0 +1,71 @@
+<!--pages/payType/payType.wxml-->
+<view class="payType">
+  <view class="type-list">
+     <view class='type-name'>
+       <image src='../../images/wuye.png'></image>
+       <text class="name">物业费</text>
+     </view>
+     <view class="type-status">已交</view>
+     <view class="type-check">
+       <image src='../../images/no-check.png'></image>
+     </view>
+  </view>
+  <view class="type-list">
+     <view class='type-name'>
+       <image src='../../images/nenghao.png'></image>
+       <text class="name">能耗费</text>
+     </view>
+     <view class="type-status">已交</view>
+     <view class="type-check">
+       <image src='../../images/no-check.png'></image>
+     </view>
+  </view>
+  <view class="type-list">
+     <view class='type-name'>
+       <image src='../../images/chewei.png'></image>
+       <text class="name">车位服务费</text>
+     </view>
+     <view class="type-price">200元</view>
+     <view class="type-check">
+       <image src='../../images/check.png'></image>
+     </view>
+  </view>
+  <view class="type-list">
+     <view class='type-name'>
+       <image src='../../images/qita.png'></image>
+       <text class="name">其他服务费</text>
+     </view>
+     <view class="type-price">200元</view>
+     <view class="type-check">
+       <image src='../../images/check.png'></image>
+     </view>
+  </view>
+  <view class="type-list">
+     <view class='type-name'>
+       <image src='../../images/dianti.png'></image>
+       <text class="name">公共电梯使用费</text>
+     </view>
+     <view class="type-price">200元</view>
+     <view class="type-check">
+       <image src='../../images/check.png'></image>
+     </view>
+  </view>
+  <view class="type-list">
+     <view class='type-name'>
+       <image src='../../images/dianfei.png'></image>
+       <text class="name">电费</text>
+     </view>
+     <view class="type-price">200元</view>
+     <view class="type-check">
+       <image src='../../images/check.png'></image>
+     </view>
+  </view>
+  <view class='pay-total'>
+     <view class='total-left'>
+        <image src="../../images/no-check.png"></image>
+        <text>全选</text>
+     </view>
+     <view class="total-price">合计：<text class="big">326.00</text>元</view>
+  </view>
+  <view class='pay-btn'>去支付</view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/repairDetail/repairDetail.wxml-->
+<view class="repairDetail">
+  <view class='detail-top'>
+    <view class='top-status'>当前状态：修理完成</view>
+    <view class='top-addr'>维修地址：弗兰克打扫</view>
+  </view>
+  <view class="detail-desc">
+    <view class="reason-info">报修原因：房屋顶部有裂缝，有漏水的痕迹，房屋
+顶部有裂缝，有漏水的痕迹</view>
+   <view class="reason-pic">
+     <image src='../../images/ex.png'></image>
+   </view>
+  </view>
+</view>

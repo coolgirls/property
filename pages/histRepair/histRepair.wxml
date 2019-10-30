@@ -1,0 +1,13 @@
+<!--pages/histRepair/histRepair.wxml-->
+<view class="histRepair">
+  <navigator class="repair-list" url="repairDetail">
+    <view class="list-left">
+      <view class="repair-time">完成时间：2019-6-28</view>
+      <view class="repair-addr">维修地址：上海为例一栋2区</view>
+      <view class="repair-reason">报修原因：<view class="reason-cont">房屋顶部有房屋顶部有裂缝，有漏水痕迹裂缝，有漏水痕迹</view></view>
+    </view>
+    <view class='list-right'>
+    <image src='../../images/right-icon.png'></image>
+    </view>
+  </navigator>
+</view>

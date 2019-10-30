@@ -1,0 +1,76 @@
+<!--pages/shopOrder/shopOrder.wxml-->
+<view class='shopOrder'>
+    <view class="nav">
+      <view class="nav-item {{index==currentTab?'active':''}}" data-index="{{index}}" wx:for="{{tabNav}}" wx:key="{{index}}" bindtap="clickTab">{{item}}</view>
+    </view>
+    <view class = "{{currentTab ==0 ? 'show':'hidden'}}">
+      <view class="pick-good">
+         <view class="good-status">待提货</view>
+         <view class="good-desc">
+            <view class="desc-pic">
+               <image src='../../images/ex.png'></image>
+            </view>
+            <view class="desc-right">
+              <view class="desc-info">荔枝<text>300g/1份</text></view>
+              <view class='desc-bot'>
+                <view class='price'>￥12.99</view>
+                <view class="nums">x2</view>
+              </view>
+            </view>
+         </view>
+         <view class="good-bot">
+            <view class="bot-left">合计：<text class="price">￥12.99</text></view>
+            <view class="bot-right">
+               <view class="blue-btn">提货码</view>
+               <view class="gray-btn">申请退货</view>
+            </view>
+         </view>
+      </view>
+    </view>
+    <view class = "{{currentTab ==1 ? 'show':'hidden'}}">
+      <view class="take-delivery">
+         <view class="good-status">已收货</view>
+         <view class="good-desc">
+            <view class="desc-pic">
+               <image src='../../images/ex.png'></image>
+            </view>
+            <view class="desc-right">
+              <view class="desc-info">荔枝<text>300g/1份</text></view>
+              <view class='desc-bot'>
+                <view class='price'>￥12.99</view>
+                <view class="nums">x2</view>
+              </view>
+            </view>
+         </view>
+         <view class="good-bot">
+           <view class="bot-left">合计：<text class="price">￥12.99</text></view>
+            <view class="bot-right">
+               <view class="gray-btn">申请退货</view>
+            </view>
+         </view>
+      </view>
+    </view>
+    <view class = "{{currentTab ==2 ? 'show':'hidden'}}">
+      <view class="return-good">
+        <view class="good-status">已退货</view>
+         <view class="good-desc">
+            <view class="desc-pic">
+               <image src='../../images/ex.png'></image>
+            </view>
+            <view class="desc-right">
+              <view class="desc-info">荔枝<text>300g/1份</text></view>
+              <view class='desc-bot'>
+                <view class='price'>￥12.99</view>
+                <view class="nums">x2</view>
+              </view>
+            </view>
+         </view>
+         <view class="good-bot">
+           <view class="bot-left">合计：<text class="price">￥12.99</text></view>
+            <view class="bot-right">
+               <view class="gray-btn">申请退货</view>
+            </view>
+         </view>
+      </view>
+    </view>
+</view>

@@ -1,0 +1,42 @@
+/* pages/histRepair/histRepair.wxss */
+page{
+  background: #f7f8fa;
+}
+
+.repair-list{
+  background: #f6fcff;
+  border: 1px solid #cfedff;
+  margin: 10px;
+  line-height: 24px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-left{
+  width: 600rpx;
+}
+
+.repair-time{
+  color: #0051a4;
+}
+
+.repair-reason{
+  color: #999;
+  display: flex;
+}
+
+.reason-cont{
+  width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-right image{
+  width: 18rpx;
+  height: 31rpx;
+}

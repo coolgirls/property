@@ -1,0 +1,22 @@
+<!--pages/goPatrol/goPatrol.wxml-->
+<view class='patrol'>
+   <view class='patrol-info'>
+      <view class='info-left'>
+        <image src='../../images/default-avator.png'></image>
+      </view>
+      <view class='info-right'>
+        <view class='right-top'>
+          <view class='user-name'>张三</view>
+        </view>
+        <view class="right-time"><text class="left" decode="true">日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;期</text>：2019-10-09</view>
+        <view class="rigth-area"><text class="left">巡逻区域</text>：A区-B区-C区-D区</view>
+      </view>
+   </view>
+   <view class='map'>
+     <map id="map" longitude="113.324520" latitude="23.099994" scale="14"  show-location style="width:710rpx;height:710rpx;"></map>
+   </view>
+   <view class="patrol-btn">
+     <view class='incident-btn' bindtap='event'>突发事件</view>
+     <view class='end-btn'>结束巡逻</view>
+   </view>
+</view>

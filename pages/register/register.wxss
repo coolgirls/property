@@ -1,0 +1,49 @@
+/* pages/register/register.wxss */
+page{
+  font-size: 14px;
+}
+.register-bg{
+  margin-bottom: 30px;
+}
+
+.register-bg image{
+  width: 750rpx;
+  height: 399rpx;
+}
+
+.register-item{
+  width: 630rpx;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item{
+  display: flex;
+  border-bottom:1px solid #dfe7ed;
+  padding-bottom: 15px;
+  margin-bottom:20px;
+}
+
+.list-item label{
+  width:45px;
+  margin-right: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.list-item:last-child{
+  margin-bottom:0;
+}
+
+.register-btn{
+  background: #079cfb;
+  color: #fff;
+  width: 630rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 16px;
+  margin:20px auto 40px;
+  text-align: center;
+  border-radius: 10px;
+}

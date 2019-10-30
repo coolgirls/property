@@ -1,0 +1,32 @@
+/* pages/paySuc/paySuc.wxss */
+page{
+  background: #f7f8fa
+}
+
+.pay-price{
+  color: #0051a4;
+  font-size: 20px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.pay-side{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.side-title{
+  color: #b0b0b0;
+}
+
+.pay-confirm{
+  width: 94%;
+  background: #079cfb;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 15% auto;
+}

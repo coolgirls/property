@@ -1,0 +1,31 @@
+<!--pages/detail/detail.wxml-->
+<view class='detail'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color="#ddd" indicator-active-color="#0051a4">
+    <block wx:for="{{picUrl}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item">
+           <image mode="acpectFill" src='{{item}}' class="slide-image"></image>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="detail-desc">
+     <view class="detail-name">荔枝<text>300g/1份</text></view>
+     <view class="detail-bot">
+        <view class="detail-price">￥12.99</view>
+        <view class='detail-cart'>
+          <view class="reduce">-</view>
+          <view class="nums">1</view>
+          <view class="add">+</view>
+        </view>
+     </view>
+  </view>
+  <view class="detail-content">
+      <view class="content-name">商品详情</view>
+      <view class="content-txt">商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情</view>
+  </view>
+  <view class="detail-bot">
+    <view class="bot-total" bindtap="showCart">合计：<view class="total-price">￥12.99</view></view>
+    <view class="bot-goPay" bindtap='pay'>去结算</view>
+  </view>
+</view>

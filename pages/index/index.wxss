@@ -1,0 +1,38 @@
+/**index.wxss**/
+page{
+  background: #f7f8fa;
+}
+.top-bg{
+  width: 750rpx;
+  height: 404rpx;
+}
+
+.top-bg image{
+  width: 100%;
+  height: 100%;
+}
+
+.navtab{
+  margin: 50px 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tab-item{
+  width: 140px;
+  height: 120px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background: #fff;  
+}
+
+.tab-item image{
+  width: 140px;
+  height: 120px;
+}
+
+.tab-item:nth-child(2n+2){
+  margin-right: 0
+}

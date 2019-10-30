@@ -1,0 +1,14 @@
+<!--pages/histPay/histPay.wxml-->
+<view class="histPay">
+  <navigator class="histPay-list" url="../payDetail/payDetail">
+    <view class="list-left">
+       <view class="price">付款金额：730</view>
+       <view class="type">收款方：电费</view>
+       <view class="household">当前：支付成功，对方已收款</view>
+       <view class="time">支付时间：2019-07-01 10:08:14</view>
+    </view>
+    <view class="list-right">
+      <image src='../../images/right-icon.png'></image>
+    </view> 
+  </navigator>
+</view>

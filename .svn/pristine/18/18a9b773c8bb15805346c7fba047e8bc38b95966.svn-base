@@ -1,0 +1,11 @@
+<!--pages/repair/repair.wxml-->
+<view class="repair">
+  <navigator class="repair-apply" url="../applyRepair/applyRepair">
+    <image src='../../images/no-succ.png'></image>
+    <text>快捷保修申请</text>
+  </navigator>
+  <navigator class="repair-apply" url="../repairSucc/repairSucc">
+    <image src='../../images/succ.png'></image>
+    <text>已完成保修缴费</text>
+  </navigator>
+</view>

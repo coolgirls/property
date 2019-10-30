@@ -1,0 +1,36 @@
+<!--pages/person/person.wxml-->
+<view class="person">
+   <view class='person-top'>
+      <view class="person-bg">
+        <image src='../../images/person-bg.png'></image>
+      </view>
+      <view class="person-info">
+         <image class="default-avator" src='../../images/default-avator.png'></image>
+         <view class='person-name'>张三</view>
+      </view>
+   </view>
+   <view class="person-item">
+      <navigator class="item-list" url="../shopOrder/shopOrder?id=0">
+         <image src='../../images/pick-good.png'></image>
+         <text>待提货</text>
+      </navigator>
+      <navigator class="item-list" url="../shopOrder/shopOrder?id=1">
+         <image src='../../images/take-delivery.png'></image>
+         <text>已收货</text>
+      </navigator>
+      <navigator class="item-list" url="../shopOrder/shopOrder?id=2">
+         <image src='../../images/return-good.png'></image>
+         <text>已退货</text>
+      </navigator>
+   </view>
+   <view class='person-list'>
+      <navigator class='history-list' url="../histPay/histPay">
+         <text class='list-left'>历史缴费订单</text>
+         <image src='../../images/right-icon.png'></image>
+      </navigator>
+      <navigator class='history-list' url="../histRepair/histRepair">
+         <text class='list-left'>历史报修订单</text>
+         <image src='../../images/right-icon.png'></image>
+      </navigator>
+   </view>
+</view>

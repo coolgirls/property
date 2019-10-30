@@ -1,0 +1,61 @@
+/* pages/repairSucc/repairSucc.wxss */
+page{
+  background: #f7f8fa;
+  font-size: 14px;
+}
+
+.pay-list{
+  border: 1px solid #cfedff;
+  background: #f6fcff;
+  margin: 10px;
+  padding: 10px 10px 0;
+  border-radius: 10px;
+}
+
+.list-top{
+  line-height: 25px;
+  border-bottom: 1px dashed #b6f3ff;
+  padding-bottom: 10px;
+}
+
+.repair-reason{
+  display: flex;
+}
+
+.reason{
+  width: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.list-bot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 50px;
+}
+
+.bot-price{
+  color: #0051a4;
+}
+
+.bot-btn{
+  background: #fff;
+  border: 1px solid #0051a4;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8rpx;
+  color: #0051a4;
+}
+
+.repair-time{
+  color: #0051a4;
+}
+
+.repair-reason{
+  color: #999;
+}

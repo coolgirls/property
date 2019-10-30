@@ -1,0 +1,36 @@
+/* pages/patrolList/patrolList.wxss */
+page{
+  font-size: 14px;
+}
+.list-item{
+  display: flex;
+  background: #eff9ff;
+  border: 1px solid #c8e8fd;
+  margin: 10px;
+  padding: 10px;
+  line-height: 25px;
+  color:#666
+}
+
+.item-left{
+  margin-right: 10px;
+}
+
+.item-left image{
+  width: 110rpx;
+  height: 110rpx;
+}
+
+.item-right{
+  width: 540rpx;
+}
+
+.right-name{
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+
+.status{
+  color: #e51c23
+}

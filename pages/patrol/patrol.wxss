@@ -1,0 +1,75 @@
+/* pages/patrol/patrol.wxss */
+page{
+  font-size: 14px;
+}
+.patrol-info{
+  margin: 10px;
+  background: #eff9ff;
+  border: 1px solid #c8e8fd;
+  display: flex;
+}
+
+.info-left{
+ margin:12px;
+}
+
+.info-left image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.info-right{
+  width: 546rpx;
+  margin-right: 10px;
+}
+
+.right-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px dashed #a8deff;
+}
+
+.right-time,.rigth-area{
+  height: 35px;
+  line-height: 35px;
+  display: flex;
+}
+
+.right-time{
+  border-bottom: 1px dashed #a8deff;
+}
+
+.left{
+  width: 120rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-check{
+  background: #079cfb;
+  color: #fff;
+  width: 70px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 8rpx;
+}
+
+.map{
+  width: 710rpx;
+  height: 710rpx;
+  margin: 10px;
+}
+
+.patrol-btn{
+  background: #079cfb;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+}

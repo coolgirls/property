@@ -1,0 +1,84 @@
+/* pages/payType/payType.wxss */
+page{
+  font-size: 14px;
+}
+.type-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #cfedff;
+  background: #f6fcff
+}
+
+.type-name{
+  display: flex;
+  align-items: center;
+  color: #0054a8;
+  width: 55%;
+}
+
+.type-name image{
+  width: 96rpx;
+  height: 96rpx;
+  margin-right:18px;
+}
+
+.type-check{
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.type-check  image{
+  width: 100%;
+  height: 100%;
+}
+
+.type-price{
+  color: #c80000;
+  width: 35%;
+  text-align: center;
+}
+
+.type-status{
+  color: #0054a8;
+  width: 35%;
+  text-align: center;
+}
+
+.pay-total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 25px;
+}
+
+.total-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total-left image{
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.big{
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.pay-btn{
+  background: #009cfb;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  width:710rpx;
+  margin: 22px 20rpx;
+  text-align: center;
+  border-radius: 8rpx;
+  font-size: 18px;
+}

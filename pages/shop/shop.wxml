@@ -1,0 +1,57 @@
+<!--pages/shop/shop.wxml-->
+<view class='shop'>
+  <view class="classify">
+    <!--分类导航栏-->
+    <scroll-view class='left-navbar' scroll-y="true">
+      <view wx:for="{{screenArray}}" class="{{ currentTab== index ? 'active' : ''}}" wx:key="unique" bindtap="{{ currentTab != index ? 'navbarTap':'' }}" id="{{index}}" data-screenId="{{item.screenId}}">{{item.screenName}}</view>
+    </scroll-view>
+    <scroll-view id="right" scroll-y="true" scroll-top="{{scrollTop}}">
+      <!--商品展示-->
+      <view class="goods-list" wx:for="{{childrenArray}}" wx:key="index" wx:if="{{index==currentTab}}">
+        <view class="goods-banner">
+          <image class="img-banner" src="{{item.showImageUrl}}" wx:if="{{item.showImageUrl}}" mode="scaleToFill"></image>
+        </view>
+        <view wx:for="{{item.childrenScreenArray}}" wx:key="unique" bindtap="ToSearchResult" id="{{item.screenName}}" >
+        <navigator url="../detail/detail" class="goods" >
+          <view class="left-pic"><image class="img" src="{{item.showImageUrl}}" wx:if="{{item.showImageUrl}}"></image></view>
+          <view class="right-txt">
+            <view class="right-top">{{item.screenName}}</view>
+            <view class="right-bot">
+              <view class="right-price">{{item.screenPrice}}</view>
+              <view class="right-cart">
+                  <view class="reduce">-</view>
+                  <view class="nums">1</view>
+                  <view class="add">+</view>
+              </view>
+            </view>
+          </view>
+        </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="shop-bot">
+    <view class="bot-total" bindtap="showCart">合计：<view class="total-price">￥12.99</view></view>
+    <view class="bot-goPay" bindtap='pay'>去结算</view>
+  </view>
+  <view class="cart" wx:if="{{show}}">
+     <view class='mask' bindtap='hideCart'></view>
+     <view class="cart-list">
+        <view class="del-item">清空购物车</view>
+        <view class="list-item">
+        <view class="left-pic"><image class="img" src="../../images/ex.png"></image></view>
+          <view class="right-txt">
+            <view class="right-top">糖果</view>
+            <view class="right-bot">
+              <view class="right-price">￥12.99</view>
+              <view class="right-cart">
+                  <view class="reduce">-</view>
+                  <view class="nums">1</view>
+                  <view class="add">+</view>
+              </view>
+            </view>
+          </view>
+        </view>
+     </view>
+  </view>
+</view>

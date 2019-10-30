@@ -1,0 +1,7 @@
+<!--pages/pickGood/pickGood.wxml-->
+<view class="pickGood">
+   <view class="good-title">您的提货码</view>
+   <view class="good-code">
+       
+   </view>
+</view>

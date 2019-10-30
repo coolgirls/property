@@ -1,0 +1,83 @@
+/* pages/goEvent/goEvent.wxss */
+page{
+  font-size: 14px;
+}
+.eventAdd{
+  margin: 10px;
+  border: 1px solid #cfedff;
+  background: #f6fcff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.repair-content,.repair-pic{
+		margin:10px 10px;
+		background: #F6FCFF;
+		border: 1px solid #CFEDFF;
+		padding: 10px;
+		border-radius: 10px;
+	}
+	
+	.address-name,.content-name,.pic-name{
+		font-size: 16px;
+		margin-bottom: 8px;
+	}
+
+	.add-btn image{
+		width: 80px;
+		height: 80px;
+	}
+	
+	.pic-list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.pic-item{
+		display: flex;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		position: relative;
+		z-index: 1
+		
+	}
+
+	.pic-item .item-pic{
+		width: 80px;
+		height: 80px;
+	}
+	
+	.shanchu-btn{
+		position: absolute;
+		top: -7px;
+		right: -7px;
+		z-index: 2;
+		width: 15px;
+		height: 15px;
+	}
+	
+	.txt{
+		width: 100%;
+		font-size: 14px;
+	}
+	
+	.address-txt,.pic-notice{
+		color: #666;
+	}
+	
+	.pic-notice{
+		margin-bottom: 10px;
+	}
+	
+	.apply-btn{
+		background: #079CFB;
+		color: #fff;
+		height:50px;
+		line-height:50px;
+		border-radius:10px ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin:20px 12px;
+		font-size: 16px;
+	}

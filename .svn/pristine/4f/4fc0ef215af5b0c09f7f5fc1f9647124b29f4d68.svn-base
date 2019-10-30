@@ -1,0 +1,35 @@
+<!--pages/patrolList/patrolList.wxml-->
+<view class="patrolList">
+  <view class="list-item">
+    <view class="item-left">
+      <image src='../../images/default-avator.png'></image>
+    </view>
+    <view class="item-right">
+      <view class="right-name">
+        <text class="name">张三</text>
+        <text class="status">巡逻完成</text>
+      </view>
+      <view class="right-time">日期：2019-10-09</view>
+      <view class="right-area">巡逻区域：A区-B区-C区-D区</view>
+      <view class="time-start">开始时间：21:32:28</view>
+      <view class="time-end">开始时间：22:32:28</view>
+      <view class="right-tick">事件反馈：内容内内容内容内容内容内容内容内容</view>
+    </view>
+  </view>
+  <view class="list-item">
+    <view class="item-left">
+      <image src='../../images/default-avator.png'></image>
+    </view>
+    <view class="item-right">
+      <view class="right-name">
+        <text class="name">张三</text>
+        <text class="status">巡逻完成</text>
+      </view>
+      <view class="right-time">日期：2019-10-09</view>
+      <view class="right-area">巡逻区域：A区-B区-C区-D区</view>
+      <view class="time-start">开始时间：21:32:28</view>
+      <view class="time-end">开始时间：22:32:28</view>
+      <view class="right-tick">事件反馈：内容内内容内容内容内容内容内容内容</view>
+    </view>
+  </view>
+</view>

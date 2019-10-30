@@ -1,0 +1,25 @@
+page{
+  background: #f7f8fa
+}
+.histPay-list{
+  width: 670rpx;
+  margin: 20rpx;
+  background: #f6fcff;
+  border:1px solid #cfedff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 20rpx;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999;
+}
+.list-right image{
+  width: 18rpx;
+  height: 31rpx;
+}
+
+.price{
+  color: #00548a;
+}

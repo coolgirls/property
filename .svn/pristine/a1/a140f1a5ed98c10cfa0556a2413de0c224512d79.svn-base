@@ -1,0 +1,28 @@
+/* pages/repairDetail/repairDetail.wxss */
+page{
+  background: #f7f8fa;
+}
+.repairDetail{
+  background: #f6fcff;
+  border: 1px solid #cfedff;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.detail-top{
+  border-bottom: 1px dashed #a8deff;
+  padding-bottom: 10px;
+  color: #999;
+}
+.top-status{
+  color: #c80000;
+}
+.detail-desc{
+  line-height: 25px;
+  padding-top: 10px;
+}
+.reason-info{
+  margin-bottom: 8px;
+}

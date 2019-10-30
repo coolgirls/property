@@ -1,0 +1,11 @@
+<!--pages/role/role.wxml-->
+<view class='role'>
+  <view class="role-item">
+     <image src='../../images/yezhu.png'></image>
+     <view class="role-btn" bindtap='loginBtn'>我是业主</view>
+  </view>
+  <view class="role-item">
+     <image src='../../images/baoan.png'></image>
+     <view class="role-btn" bindtap='loginBtn'>我是保安</view>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top-bg">
+     <image src='../../images/topBg.png' mode="aspectFit"></image>
+  </view>
+  <view class="navtab">
+     <navigator class='tab-item' url="../estate/estate">
+        <image src='../../images/property-icon.png' mode="aspectFit"></image>
+     </navigator>
+     <navigator class='tab-item' url="../repair/repair">
+        <image src='../../images/repair-icon.png' mode="aspectFit"></image>
+     </navigator>
+     <navigator class='tab-item' url="../patrol/patrol">
+        <image src='../../images/patrol-icon.png' mode="aspectFit"></image>
+     </navigator>
+     <navigator class='tab-item' url="../shop/shop">
+        <image src='../../images/shop-icon.png' mode="aspectFit"></image>
+     </navigator>
+  </view>
+</view>

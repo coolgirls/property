@@ -1,0 +1,26 @@
+/* pages/repair/repair.wxss */
+page{
+  background: #f7f8fa;
+}
+
+.repair-apply{
+  width: 590rpx;
+  height: 400rpx;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.repair-apply:first-child{
+  margin-top: 45px;
+}
+
+.repair-apply image{
+  width:140rpx;
+  height:100rpx;
+  margin-bottom: 22px;
+  }

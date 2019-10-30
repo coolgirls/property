@@ -1,0 +1,18 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+  <view class="login-bg">
+    <image src='../../images/lgRg.png'></image>
+  </view>
+  <view class="login-item">
+       <view class="list-item">
+          <label>账号</label>
+     <input type='text' placeholder='请输入账号'></input>
+       </view>
+       <view class="list-item">
+          <label>密码</label>
+     <input type='text' placeholder='请输入密码' password></input>
+       </view>
+  </view>
+  <view class='register-btn'>请先注册</view>
+  <view class='login-btn' bindtap='login'>登录</view>
+</view>

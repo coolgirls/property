@@ -1,0 +1,9 @@
+<!--pages/paySuc/paySuc.wxml-->
+<view class="paySuc">
+   <view class="pay-price">￥256.00</view>
+   <view class="pay-side">
+     <text class="side-title">收款方</text>
+     <text class="side-name">上海伟莱物业</text>
+   </view>
+   <view class="pay-confirm" bindtap='pickGood'>确定</view>
+</view>

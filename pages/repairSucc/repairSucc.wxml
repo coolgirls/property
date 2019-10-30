@@ -1,0 +1,14 @@
+<!--pages/repairSucc/repairSucc.wxml-->
+<view class="repairSucc">
+  <view class="pay-list">
+     <view class="list-top">
+       <view class='repair-time'>完成时间：2019-06-28</view>
+       <view class='repair-addr'>维修地址：上海伟莱一栋</view>
+       <view class='repair-reason'>报修原因：<view class="reason">房屋顶部有裂缝，有漏水的痕迹</view></view>
+     </view>
+     <view class="list-bot">
+        <view class="bot-price">维修金额：￥256.00</view>
+        <view class="bot-btn">去支付</view>
+     </view>
+  </view>
+</view>

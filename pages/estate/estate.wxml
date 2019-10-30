@@ -1,0 +1,37 @@
+<!--pages/estate/estate.wxml-->
+<view class="estate">
+   <view class="estate-info">
+     <view class="info-list">缴费户号：1234</view>
+     <view class="info-list">姓名：1234</view>
+     <view class="info-list">楼栋：1234</view>
+     <view class="info-list">单元：1234</view>
+     <view class="info-list">门牌号：1234</view>
+   </view>
+   <view class="estate-pay">
+     <view class='pay-title'>当前代缴费信息</view>
+     <navigator class="pay-list" url="../payType/payType" hover-class="none">
+        <text class="pay-name">物业费</text>
+        <text class="active">已交</text>
+     </navigator>
+     <navigator class="pay-list" url="../payType/payType" hover-class="none">
+        <text class="pay-name">能耗费</text>
+        <text class="active">已交</text>
+     </navigator>
+      <navigator class="pay-list" url="../payType/payType" hover-class="none">
+        <text class="pay-name">其他服务费</text>
+        <text class="noactive">未交</text>
+     </navigator>
+      <navigator class="pay-list" url="../payType/payType" hover-class="none">
+        <text class="pay-name">车位服务费</text>
+        <text class="noactive">未交</text>
+     </navigator>
+      <navigator class="pay-list" url="../payType/payType" hover-class="none">
+        <text class="pay-name">公共电梯使用费</text>
+        <text class="noactive">未交</text>
+     </navigator>
+      <navigator class="pay-list" url="../payType/payType" hover-class="none">
+        <text class="pay-name">电费</text>
+        <text class="noactive">未交</text>
+     </navigator>
+   </view>
+</view>

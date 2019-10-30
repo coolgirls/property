@@ -1,0 +1,16 @@
+<!--pages/histDetail/histDetail.wxml-->
+<view class="histDetail">
+  <view class="detail-top">
+     <view class="pay-price">缴费金额：723.00</view>
+    <view class="pay-status">当前状态：支付成功</view>
+    <view class="pay-time">支付时间：2019-6-30</view>
+  </view>
+  <view class='detail-list'>
+    <view class="list-item">物业费：200元</view>
+    <view class="list-item">能耗费：200元</view>
+    <view class="list-item">车位服务费：200元</view>
+    <view class="list-item">其他服务费：200元</view>
+    <view class="list-item">公共电梯费：200元</view>
+    <view class="list-item">电费：200元</view>
+  </view>  
+</view>

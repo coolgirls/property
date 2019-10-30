@@ -1,0 +1,33 @@
+<!--pages/goEvent/goEvent.wxml-->
+<view class='goEvent'>
+  <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange" class="eventAdd">
+    <view class="picker">
+      时间: {{time}}
+    </view>
+  </picker>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{area}}" class="eventAdd">
+    <view class="picker">
+      地址：{{area[index]}}
+    </view>
+  </picker>
+  	<view class="repair-content">
+				<view class="content-name">维修内容</view>
+				<view class="content-txt">
+					<textarea placeholder="请填写您的真实情况,可书写200字" class="txt" v-model="content"></textarea>
+				</view>
+			</view>
+			<view class="repair-pic">
+				<view class="pic-name">维修问题拍照上传</view>
+				<view class="pic-notice">请上传维修问题照片，可上传3张照片</view>
+				<view class="pic-list">
+					<!-- <view class="pic-item" v-for="(item,index) of fileArr">
+						<image :src="item.src" mode="aspectFill" class="item-pic"></image>
+						<image class='shanchu-btn' src="../../images/del.png"></image>
+					</view> -->
+					<view class="add-btn">
+						<image src="../../images/addPic.png"></image>
+					</view>
+				</view>
+			</view>
+			<view class="apply-btn">提交</view>
+</view>

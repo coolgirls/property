@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/role/role",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/person/person",
+    "pages/shop/shop",
+    "pages/repair/repair",
+    "pages/applyRepair/applyRepair",
+    "pages/repairSucc/repairSucc",
+    "pages/patrol/patrol",
+    "pages/goPatrol/goPatrol",
+    "pages/patrolList/patrolList",
+    "pages/goEvent/goEvent",
+    "pages/estate/estate",
+    "pages/payType/payType",
+    "pages/detail/detail",
+    "pages/paySuc/paySuc",
+    "pages/pickGood/pickGood",
+    "pages/shopOrder/shopOrder",
+    "pages/histPay/histPay",
+    "pages/payDetail/payDetail",
+    "pages/histRepair/histRepair",
+    "pages/repairDetail/repairDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarTitleText": "伟莱物业",
+    "navigationBarBackgroundColor": "#0051a4",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "images/wode.png",
+        "selectedIconPath": "images/wode-on.png",
+        "text": "我的"
+      }
+    ],
+      "color": "#5F5E62",
+      "selectedColor": "#0051a4",
+      "backgroundColor": "#fff",
+      "borderStyle":"white"
+  }
+}

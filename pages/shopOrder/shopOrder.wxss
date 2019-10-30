@@ -1,0 +1,118 @@
+/* pages/histPay/histPay.wxss */
+page{
+  background: #f7f7f7;
+}
+.nav{
+   background: #eef9ff;
+   height: 80rpx;
+   line-height: 80rpx;
+   padding: 0 10%;
+   display: flex;
+}
+.nav-item{
+  text-align: center;
+  width: 27%;
+  margin: 0 4%;
+  font-size: 16px;
+}
+.active{
+  color: #0051a4;
+  border-bottom: 2px solid #0051a4;
+}
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+
+.pick-good,.take-delivery,.return-good{
+  background: #fff;
+  margin-top: 8px;
+}
+
+.good-status{
+  height:35px;
+  line-height:35px;
+  color: #0051a4;
+  padding-left: 15px;
+  font-size: 14px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.good-desc{
+  display: flex;
+  padding:15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.desc-pic{
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 16rpx;
+}
+
+.desc-pic image{
+  width: 100%;
+  height: 100%;
+}
+
+.desc-right{
+  display: flex;
+  flex-direction: column;
+  width: 534rpx;
+}
+
+.desc-info{
+  font-size: 14px;
+}
+
+.desc-bot{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+.good-bot{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+  font-size: 14px;
+  height: 100rpx;
+  align-items: center;
+}
+
+.bot-left{
+  font-size: 16px;
+}
+
+.price{
+  color: #c80000;
+  font-size: 14px;
+}
+
+.bot-right{
+  display: flex;
+}
+.blue-btn,.gray-btn{
+   width: 160rpx;
+   height: 64rpx;
+   line-height: 64rpx;
+   text-align: center;
+   border-radius:5px;
+}
+
+.blue-btn{
+   color: #0051a4;
+   border: 1px solid #0051a4;
+   margin-right: 15px;
+}
+
+.gray-btn{
+   color: #666;
+   border: 1px solid #666;
+}
+
+.nums{
+  color: #999;
+}

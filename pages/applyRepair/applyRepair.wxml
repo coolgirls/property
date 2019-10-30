@@ -1,0 +1,27 @@
+<!--pages/applyRepair/applyRepair.wxml-->
+<view class="repair-apply">
+			<view class="repair-address">
+				<view class="address-name">维修地点</view>
+				<view class="address-txt"  >{{address}}</view>
+			</view>
+			<view class="repair-content">
+				<view class="content-name">维修内容</view>
+				<view class="content-txt">
+					<textarea placeholder="请填写您的真实情况,可书写200字" class="txt" v-model="content"></textarea>
+				</view>
+			</view>
+			<view class="repair-pic">
+				<view class="pic-name">维修问题拍照上传</view>
+				<view class="pic-notice">请上传维修问题照片，可上传3张照片</view>
+				<view class="pic-list">
+					<!-- <view class="pic-item" v-for="(item,index) of fileArr">
+						<image :src="item.src" mode="aspectFill" class="item-pic"></image>
+						<image class='shanchu-btn' src="../../images/del.png"></image>
+					</view> -->
+					<view class="add-btn">
+						<image src="../../images/addPic.png"></image>
+					</view>
+				</view>
+			</view>
+			<view class="apply-btn">提交</view>
+	</view>
